@@ -6,28 +6,46 @@
 </head>
 
 <body style="background-color: cadetblue; color: aliceblue">
-    <header>
-        <h1 style="text-align: center">Building......</h1>
-        <nav>
-            <ul>
-                <li><a href="http://www.baidu.com" target="_blank">学习</a></li>
-                <li>学习</li>
-                <li>学习</li>
-            </ul>
-        </nav>
-    </header>
 
+    <div id="all_head">
+        <h1 class="logo">
+            <img src="images/海边枯树H.jpg" width="451.8" height="224.9" alt="配图未显示">
+        </h1>
+        <header>
+            <h1 style="text-align: center">Building......</h1>
+            <nav>
+                <ul>
+                    <li><a href="http://www.baidu.com" target="_blank">学习</a></li>
+                    <li><a href="#usually_page">常用链接</a></li>
+                    <li>学习</li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="content">
     <article>
         <hgroup>
-            <h1>我也不知道写点啥（主标题）</h1>
-            <h2>这个是子标题</h2>
+            <h1>常用网页集合</h1>
+            <h2>这里收录了我的常用网页</h2>
         </hgroup>
-            <p>
-                这里是文章正文，虽然简陋，但是是自己敲的啊。
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            </p>
+        <section class="usually_page">
+            <a name="usually_page">常用网站链接：</a>
+            <table border="2">
+                <tr>
+                    <td><a href="https://www.bilibili.com/">哔哩哔哩</a></td>
+                    <td><a href="https://www.taobao.com/">淘宝网</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.w3.org/">W3C官网</a></td>
+                    <td><a href="https://www.w3school.com.cn/index.html">W3C在线教程</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/">Github</a></td>
+                    <td><a href="https://matlabacademy.mathworks.com/cn">MATLAB官网培训</a></td>
+                </tr>
+            </table>
+        </section>
         <section>
             <div>
                 <article>
@@ -39,9 +57,10 @@
             </div>
         </section>
     </article>
+    </div>
+
 
     <footer style="text-align: center">
-
         <address>
             <small>
                 Written by: <a href="https://guopuzhe.github.io/Web_study/">Guo Puzhe</a><br/>
@@ -52,5 +71,6 @@
             </small>
         </address>
     </footer>
+
 </body>
 </html>
