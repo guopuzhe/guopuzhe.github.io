@@ -8,101 +8,113 @@
 
 <body>
 
-    <div id="all_head">
-        <h1 class="logo">
-            <img src="images/海边枯树H.jpg" width="451.8" height="224.9" alt="配图未显示" title="海边枯树byGPZ">
-        </h1>
-        <header>
-            <h1>Building......</h1>
-        <nav>
-            <ul>
-                <li><a href="http://www.baidu.com" target="_blank">学习</a></li>
-                <li><a href="index.html#usually_page">常用链接</a></li>
-                <li>学习</li>
-            </ul>
-        </nav>
-        </header>
-    </div>
+<header>
+    <h1 id="logo1">
+        <img id="head_left_pic" src="images/海边枯树H.jpg" width="451.8" height="224.9" alt="配图未显示" title="海边枯树byGPZ">
+    </h1>
+    <h1 id="title_all_page">Building......</h1>
+    <nav>
+        <ul>
+            <li><a href="http://www.baidu.com" target="_blank">学习</a></li>
+            <li><a href="index.html#usually_page_table">常用链接</a></li>
+            <li>学习</li>
+        </ul>
+    </nav>
+</header>
 
-    <div class="content">
-        <marquee>Building_now</marquee>
-<!--        这是当年微软大战网景时的产物-->
+<main class="content">
+    <marquee>Building_now</marquee>
+    <!--        这是当年微软大战网景时的产物-->
+    <section class="usually_page">
+        <h1>常用网页集合</h1>
+        <table id="usually_page_table">
+            <caption title="会时常更新">常用网站链接:</caption>
+            <tr>
+                <td><a href="https://www.bilibili.com/" target="_blank">哔哩哔哩</a></td>
+                <td><a href="https://www.taobao.com/" target="_blank">淘宝网</a></td>
+                <td><a href="https://www.jd.com/" target="_blank">京东</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.w3.org/" target="_blank">W3C官网</a></td>
+                <td><a href="https://www.w3school.com.cn/index.html" target="_blank">W3C在线教程</a></td>
+                <td><a href="https://docs.blender.org/manual/zh-hans/dev/index.html" target="_blank">Blender参考手册</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/" target="_blank">Github</a></td>
+                <td><a href="https://matlabacademy.mathworks.com/cn" target="_blank">MATLAB官网培训</a></td>
+                <td><a href="https://www.coursera.org/" target="_blank">coursera</a></td>
+            </tr>
+            <tr>
+                <td><a href="http://csszengarden.com/" target="_blank">CSS禅意花园</a></td>
+                <td><a href="http://www.hewebgl.com/" target="_blank">WebGL教程</a></td>
+                <td><a href="https://www.codecogs.com/latex/eqneditor.php?lang=zh-cn" target="_blank">在线公式编辑器</a></td>
+            </tr>
+        </table>
+    </section>
+    <section class="basic_content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur dolores eaque
+            enim, ex fuga illo inventore laborum, maxime optio perspiciatis placeat, ratione rem soluta
+            temporibus tenetur voluptate voluptates voluptatum.</p>
+    </section>
+    <section class="basic_content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, cumque debitis dicta,
+            dolor error expedita id magni modi odio officiis optio quae quasi qui, quos repudiandae
+            sapiente tempora tempore vel.</p>
+    </section>
+    <section>
         <article>
-            <hgroup>
-                <h1 id="usually_page">常用网页集合</h1>
-                <h2>这里收录了我的常用网页</h2>
-            </hgroup>
-            <section class="usually_page">
-                <p title="会时常更新">常用网站链接：</p>
-                <table border="2">
-                    <tr>
-                        <td><a href="https://www.bilibili.com/">哔哩哔哩</a></td>
-                        <td><a href="https://www.taobao.com/">淘宝网</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://www.w3.org/">W3C官网</a></td>
-                        <td><a href="https://www.w3school.com.cn/index.html">W3C在线教程</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://github.com/">Github</a></td>
-                        <td><a href="https://matlabacademy.mathworks.com/cn">MATLAB官网培训</a></td>
-                    </tr>
-                </table>
-            </section>
-            <section>
-                <div>
-                    <article>
-                        <h1>附录</h1>
-                        <p>附录内容</p>
-                        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                    </article>
-                </div>
-            </section>
+            <h1>附录</h1>
+            <p>附录内容</p>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         </article>
-    </div>
+    </section>
+</main>
 
-    <div class="Feedback">
-        <form action="mailto:hartmanngpz@hotmail.com" method="post" enctype="text/plain">
+<div class="Feedback" id="feedback">
+    <form action="mailto:hartmanngpz@hotmail.com" method="post" enctype="text/plain">
 
-            <fieldset>
-                <legend>Feedback</legend>
-                <br/>
-                    What do you want to say?&nbsp;
-                <br/><br/>
+        <fieldset>
+            <legend>Feedback</legend>
+            <br/>
+            What do you want to say?&nbsp;
+            <br/><br/>
 
-                <label>
-                    <textarea required="required"></textarea>
-                </label>
-                <br/><br/>
+            <label>
+                <textarea required="required"></textarea>
+            </label>
+            <br/><br/>
 
-                Email Address:&nbsp;
-                <label>
-                    <input type="text" name="number"/>
-                </label><br/><br/>
+            Email Address:&nbsp;
+            <label>
+                <input type="text" name="number"/>
+            </label><br/><br/>
 
-                    Your intelligence:&nbsp;
-                <label>
-                    <input type="range" name="intelligence"/>
-                </label><br/><br/>
+            Your intelligence:&nbsp;
+            <label>
+                <input type="range" name="intelligence"/>
+            </label><br/><br/>
 
-                <input type="submit" value="Submit"/>
-            </fieldset>
+            <input type="submit" value="Submit"/>
+        </fieldset>
+        <br/><br/>
 
-        </form>
-    </div>
+    </form>
+</div>
 
-    <footer>
-        <address>
-            <small>
-                Written by: <a href="https://guopuzhe.github.io/Web_study/">Guo Puzhe</a><br/>
-                Contact information: <a href="mailto:hartmanngpz@hotmail.com">hartmanngpz@hotmail.com</a> <br/>
-                In Shanghai<br/>
-                CHINA<br/>
-                <time datetime="2020-1-30">2020-1-30</time>
-            </small>
-        </address>
-    </footer>
+<footer>
+    <address>
+        <small>
+            <br/>
+            Written by: <a href="https://guopuzhe.github.io/Web_study/">Guo Puzhe</a><br/>
+            Contact information: <a href="mailto:hartmanngpz@hotmail.com">hartmanngpz@hotmail.com</a> <br/>
+            In Shanghai<br/>
+            CHINA<br/>
+            <time datetime="2020-1-30">2020-2-6</time>
+            <br/><br/><br/>
+        </small>
+    </address>
+</footer>
 
 </body>
 </html>

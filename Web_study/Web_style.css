@@ -1,3 +1,78 @@
-body{color: black;background-color: azure;margin-left: 6em;margin-right: 6em;}
-h1 header{text-align: center}
-footer{text-align: center}
+body{
+    color: black;
+    background-color: #f8f8f8;
+    margin-bottom: 0;
+}
+
+
+header h1#title_all_page{
+    text-align: center;
+    font-size: 20px;
+}
+nav a {
+    text-decoration-line: none;
+    color: black;
+}
+
+main,.Feedback{
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+
+/*有关常用网站的表格*/
+.usually_page h1{
+    font-size: 18px;
+}
+
+#usually_page_table caption{
+    font-size: 16px;
+    padding: 8px;
+}
+#usually_page_table{
+    background-color: white;
+    border-collapse: collapse;
+}
+#usually_page_table td{
+    border-width: 1px;
+    border-color: lightgrey;
+    border-style: solid;
+    padding: 8px 10px;
+}
+#usually_page_table a{
+    text-decoration-line: none;
+    color: dimgrey;
+}
+#usually_page_table a:hover{
+    color: black;
+    font-size: large;
+}
+#usually_page_table a:active{
+    color: firebrick;
+}
+
+
+
+/*反馈板块*/
+#feedback{
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+/*脚注板块*/
+footer{
+    text-align: center;
+    background-color: dimgrey;
+    margin-left: 0;
+    margin-right: 0;
+}
+footer small{
+    color: white;
+}
+footer small a{
+    text-decoration-line: none;
+    color: white;
+}
+footer small a:hover{
+    color: lightcyan;
+}
