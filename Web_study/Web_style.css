@@ -1,19 +1,59 @@
 body{
     color: black;
     background-color: #f8f8f8;
-    margin-bottom: 0;
+    margin: 0 0 0 0;
 }
 
 
-header h1#title_all_page{
-    text-align: center;
+/*网页标题*/
+#title_all_page{
     font-size: 20px;
+    color: white;
+    background-color: lightslategray;
+    padding: 40px 200px 40px 200px;
+    margin: 0;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 300px;
+    width: 660px;
+    float: left;
+}
+div#logo{
+    background-color: lightslategray;
+    float: left;
+}
+#head_left_pic{
+    width: 300px;
+}
+
+/*导航*/
+nav{
+    position: absolute;
+    background-color: lightslategray;
+    color: white;
+    top: 106px;
+    left: 300px;
+    width: 78%;
+}
+li{
+    width: 80px;
+    padding: 8px;
+    display: inline;
 }
 nav a {
     text-decoration-line: none;
-    color: black;
+    color: white;
+}
+nav a:hover{
+    color: lightgrey;
+}
+nav a:active{
+    color: firebrick;
 }
 
+
+/*主体架构*/
 main,.Feedback{
     margin-left: 6%;
     margin-right: 6%;
@@ -58,6 +98,14 @@ main,.Feedback{
     margin-left: 6%;
     margin-right: 6%;
 }
+input #email_address:valid{
+    border: 1px solid black;
+}
+input #email_address:invalid{
+    border: 1px solid darkred;
+}
+
+
 
 /*脚注板块*/
 footer{
