@@ -69,6 +69,13 @@ nav a:active{
 #usually_page_table{
     background-color: white;
     border-collapse: collapse;
+    text-align: center;
+    margin-left: 15%;
+}
+#table_title{
+    background-color: #99abc3;
+    color: white;
+    font-size: large;
 }
 #usually_page_table td{
     border-width: 1px;
