@@ -95,7 +95,13 @@ nav a:active{
     color: firebrick;
 }
 
-
+/*hobby板块*/
+.basic_content h1{
+    font-size: 18px;
+}
+.basic_content p{
+    line-height: 150%;
+}
 
 /*反馈板块*/
 #feedback{
