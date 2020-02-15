@@ -98,9 +98,18 @@ nav a:active{
 /*hobby板块*/
 .basic_content h1{
     font-size: 18px;
+    padding-top: 60px;
 }
 .basic_content p{
     line-height: 150%;
+}
+
+/*Video板块*/
+.basic_content iframe{
+    width: 600px;
+    height: 350px;
+    margin: 60px;
+    padding-left: 20%;
 }
 
 /*反馈板块*/

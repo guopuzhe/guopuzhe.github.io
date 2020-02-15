@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>building...</title>
     <link rel="stylesheet" href="Web_style.css" type="text/css">
+    <script src="script001.js"></script>
 </head>
 
 <body>
@@ -49,7 +50,7 @@
                 <td><a href="http://www.hewebgl.com/" target="_blank">WebGL教程</a></td>
                 <td><a href="https://www.w3school.com.cn/index.html" target="_blank">W3C在线教程</a></td>
                 <td><a href="https://matlabacademy.mathworks.com/cn" target="_blank">MATLAB官网培训</a></td>
-                <td></td>
+                <td><a href="https://unsplash.com/">Unsplash</a></td>
                 <td><a href="http://ehall.fudan.edu.cn/new/index.html?browser=no">ehall</a></td>
             </tr>
             <tr>
@@ -68,18 +69,33 @@
                 <td></td>
                 <td><a href="https://elearning.fudan.edu.cn/dash?login_success=1">elearning</a></td>
             </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><a href="https://developer.mozilla.org/zh-CN/">MDN Web</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
         </table>
     </section>
     <section class="basic_content">
-        <h1 id="hobby">就是个玩儿！</h1>
+        <h1 id="hobby" onclick="test()">就是个玩儿！</h1>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;啊，没什么比玩更有趣的了！可现在的人是越来越不会玩了，早些时候，小玩虫，大熬鹰；现在只会玩手机了。
             一天过去，一上床，就倍感人生寂寞生活空虚。或许是这代人的悲哀吧，也或许就成了日后代代人的日常。
             未来电子设备和生活的融入将越来越密切。而和生活结合还是与生活割裂，成了我们要考虑的问题。</p>
     </section>
-    <section class="basic_content">
+    <section class="basic_content" id="music_bar">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, cumque debitis dicta,
             dolor error expedita id magni modi odio officiis optio quae quasi qui, quos repudiandae
             sapiente tempora tempore vel.</p>
+        <audio id="music_WeiYangQi" preload="auto" src="music/未央宫.mp3" controls="controls">
+            Your browser does not support the audio tag.</audio>
+    </section>
+    <section class="basic_content" id="B-video">
+        <iframe src="//player.bilibili.com/player.html?aid=58975424&cid=102804454&page=1"
+                scrolling="no" border="0" frameborder="no" framespacing="0"
+                allowfullscreen="true">Your browser does not support the video.</iframe>
     </section>
     <section>
         <article>
