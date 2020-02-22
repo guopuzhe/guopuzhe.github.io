@@ -133,7 +133,7 @@ footer{
     margin-left: 0;
     margin-right: 0;
 }
-footer small{
+footer address{
     color: white;
 }
 footer small a{
@@ -142,4 +142,8 @@ footer small a{
 }
 footer small a:hover{
     color: lightcyan;
+}
+#date{
+    font-size: 13px;
+    margin: 5px;
 }
